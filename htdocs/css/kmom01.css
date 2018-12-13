@@ -14,3 +14,93 @@
 .rm-navbar-max {
     display: none;
 }
+
+html {
+    overflow: scroll;
+    background-color: seagreen;
+    font-family: Verdana;
+}
+
+body {
+    background-color: slategray;
+}
+
+.wrap-all {
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: lavender;
+}
+
+.site-logo {
+    display: none;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+    padding-left: 3px;
+}
+
+.region-header-col-1 {
+	width: 20%;
+	float: left;
+}
+
+.region-header-col-2 {
+	width: 59%;
+	float: left;
+}
+
+.region-header-col-3 {
+	width: 20%;
+	float: left;
+}
+
+.rm-navbar {
+	text-align: center;
+	font-family: Palatino Linotype, sans-serif;
+	font-size: 1.5em;
+}
+
+.rm-navbar ul {
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.rm-default li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.outer-wrap-header {
+    max-height: 50px;
+    margin-bottom: 10px;
+}
+
+.figure.figure.right {
+    float: right;
+    margin-left: 10px;
+}
+
+.figure.figure.left {
+    float: left;
+}
+
+.article {
+	overflow: auto;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.author-byline {
+	overflow: auto;
+	border: 1px solid gray;
+	margin-bottom: 50px;
+    margin-left: 1em;
+	padding: 1em;
+	width: 95%;
+	box-sizing: border-box;
+}

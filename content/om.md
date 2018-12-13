@@ -4,7 +4,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
@@ -12,7 +12,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
 ---
@@ -21,8 +21,11 @@ Om
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
 
-Skriv några kloka ord om kursen?
+Den här kursen heter design. Det är den andra kursen i kurspaketet Webbprogrammering och databaser vid Blekinge Tekniska Högskola.
+Kursen fokuserar på CSS och style.
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
+<a href="https://github.com/dbwebb-se/design">Kursens GitHub repo.</a>
 
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+<a href="https://github.com/Pazoozoo/design">GitHub repo för min me-sida.</a>
+
+[FIGURE src=image/chair.jpg?w=400 caption="En stol som demobild."]
